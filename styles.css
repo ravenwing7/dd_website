@@ -1,0 +1,143 @@
+body {
+	margin:0;
+	padding:0;
+	background-color: #000;
+	}
+#wrapper {
+	margin:10px;
+	padding:0;
+	width:1100px;
+	height:750px;
+	}
+#header {
+	background-image: url(images/banner-felix-ortiz.jpg); /*Source: Forest Practice, Felix Ortiz (https://www.artstation.com/artwork/yNk8x)*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0% 55%;
+	margin:0;
+	padding:20px;
+	}
+#tabMenu {
+	margin:0;
+	padding:0;
+	background-color: #000;
+	}
+table.nav {
+	margin-bottom: 15px;
+	margin-left:0;
+	margin: auto;
+	text-align: center;
+	}
+table.nav td {
+	margin-bottom:2px;
+	}
+table.nav a {
+	padding: 5px 30px 5px 30px;
+	display: block;
+	width: 155px;
+	background: #079;
+	color:#FFF;
+	text-decoration: none;
+	}
+table.nav a:hover, table.nav a:active {
+	background: #CCC;
+	color: #000;
+	}
+#sideBar {
+	width:215px;
+	height:630px;
+	margin:0;
+	padding:0;
+	background-color: #079;
+	background-image: url(images/Caryatid_Column.jpg); /* Source: The Tome of Horrors Complete, by Paizo (http://paizo.com/pathfinderRPG) */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	}
+.subNav {
+	width: auto;
+	height: auto;
+	opacity: 0.75;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: #FFF;
+	}
+.subNav a, .subNav a:visited {
+	text-decoration: none;
+	color: #000;
+	}
+ul>li {
+	list-style: none;
+	padding: 2px;
+	}
+#exLink dt {
+	list-style: circle;
+	color: #FFF;
+	}
+#exLink dd {
+	color: #FFF;
+	padding-bottom: 5px;
+	}
+#mainContent {
+	width:780px;
+	height:620px;
+	background-color:#333;
+	float:right;
+	margin:0;
+	padding:5px 60px 5px 40px;
+	overflow-y: scroll;
+	}
+#mainContent img {
+	height: 280px;
+	display: block;
+	margin: auto;
+	border: 1px solid black;
+	}
+#subFrame {
+	width:780px;
+	height:620px;
+	float: right;
+	padding-right: 100px;
+}
+#subPage {
+	width:780px;
+	height:620px;
+	background-color:#333;
+	margin:0;
+	padding:5px 60px 5px 40px;
+	}
+#subPage img {
+	height: 280px;
+	display: block;
+	margin: auto;
+	border: 1px solid black;
+	}
+#subPage #portrait {
+	float: right;
+	height: 400px;
+	display: inline;
+	margin-top: 15px;
+}
+#header h1 {
+	font-size:2.5em;
+	color: #FFF;
+	text-align: center;
+	}
+p, label {
+	font-size:1em;
+	color:#FFF;
+	}
+h1 {
+	font-size:2em;
+	color:#FFF;
+	}
+h2 {
+	font-size:1.5em;
+	color:#FFF;
+	}
+a {
+	font-weight:bold;
+	color:#FFF;
+	font-size:1em;
+	}
